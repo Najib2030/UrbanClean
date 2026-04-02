@@ -1,2 +1,19 @@
-# UrbanClean
-Plateforme web/mobile permettant le signalement, le suivi et l’optimisation des opérations de nettoyage urbain en temps réel. Les citoyens peuvent signaler des dépôts sauvages, et les gestionnaires disposent d’un tableau de bord complet. (React, Node.js, PostgreSQL, Google Maps, Firebase)
+# 🧹 UrbanClean – Gestion intelligente de la propreté urbaine
+
+Plateforme web/mobile pour signaler, suivre et optimiser le nettoyage urbain en temps réel.
+
+## ✨ Fonctionnalités
+
+- Signalement citoyen (photo, géolocalisation, type de problème)
+- Carte interactive avec les signalements et équipes
+- Optimisation des tournées par IA
+- Notifications push en temps réel
+- Tableau de bord pour les gestionnaires
+
+## 🛠 Stack technique
+
+- **Frontend** : React.js (Vite) + Tailwind CSS
+- **Backend** : Node.js + Express
+- **Base de données** : PostgreSQL + PostGIS
+- **Cartographie** : Google Maps API
+- **Notifications** : Firebase Cloud Messaging
