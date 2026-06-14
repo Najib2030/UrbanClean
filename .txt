@@ -1,0 +1,58 @@
+src/
+├── components/
+│   ├── Layout/
+│   │   ├── Sidebar.jsx
+│   │   └── TopBar.jsx
+│   ├── Map/
+│   │   └── ReportsMap.jsx
+│   ├── Reports/
+│   │   ├── ReportForm.jsx
+│   │   ├── ReportList.jsx
+│   │   └── ReportCard.jsx
+│   ├── Collaboration/
+│   │   └── Comments.jsx
+│   └── Common/
+│       ├── ProtectedRoute.jsx
+│       ├── LoadingScreen.jsx
+│       ├── NotificationListener.jsx
+│       ├── FadeInSection.jsx
+│       └── LoadingSpinner.jsx
+├── contexts/
+│   └── AuthContext.jsx
+├── hooks/
+│   └── useReceiveAlerts.js
+├── utils/
+│   ├── createNotification.js
+│   ├── leafletFix.js
+│   └── notify.js
+├── firebase/
+│   └── config.js
+├── locales/
+│   └── ar/
+│   │   └── translation.json
+│   └── en/
+│   │   └── translation.json
+│   └── fr/
+│       └── translation.json
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── MapPage.jsx
+│   ├── ReportsPage.jsx
+│   ├── ToursPage.jsx
+│   ├── OptimPage.jsx
+│   ├── HowItWorksPage.jsx
+│   ├── AboutPage.jsx
+│   ├── ContactPage.jsx
+│   ├── CollaborationPage.jsx
+│   ├── SettingsPage.jsx
+│   ├── HomePage.jsx
+│   └── Login.jsx
+├── assest/
+│   ├── city.png
+│   ├── logo.png
+│   ├── phone-card-dark.jpg
+│   └── phone-card-light.jpg
+├── App.jsx
+├── i18n.js
+├── main.jsx
+└── index.css
