@@ -6,6 +6,7 @@ import { useTheme } from "../contexts/ThemeContext";
 import { useTranslation } from "react-i18next";
 import i18n from "../i18n";
 import FadeInSection from "../components/Common/FadeInSection";
+import logo from "../assets/logo.png";
 
 function AboutPage() {
   const navigate = useNavigate();
@@ -55,7 +56,7 @@ function AboutPage() {
     <div className="home-page about-page">
       <nav className="home-navbar">
         <div className="home-logo" onClick={() => navigate("/")} style={{cursor: "pointer"}}>
-          <img src="/src/assets/logo.png" alt="logo" className="logo-img" />
+          <img src={logo} alt="logo" className="logo-img" />
           <h2>Urbain<span>Clean</span></h2>
         </div>
         <div className="home-links">

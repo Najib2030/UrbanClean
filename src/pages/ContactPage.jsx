@@ -8,6 +8,7 @@ import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 import toast from "react-hot-toast";
 import FadeInSection from "../components/Common/FadeInSection";
+import logo from "../assets/logo.png";
 
 function ContactPage() {
   const navigate = useNavigate();
@@ -110,7 +111,7 @@ function ContactPage() {
     <div className="home-page contact-page">
       <nav className="home-navbar">
         <div className="home-logo" onClick={() => navigate("/")} style={{cursor: "pointer"}}>
-          <img src="/src/assets/logo.png" alt="logo" className="logo-img" />
+          <img src={logo} alt="logo" className="logo-img" />
           <h2>Urbain<span>Clean</span></h2>
         </div>
         <div className="home-links">
